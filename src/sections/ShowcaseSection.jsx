@@ -59,13 +59,13 @@ const ShowcaseSection = () => {
                             <div className="image-wrapper bg-[#ffefdb]">
                                 <img src="/images/project2.png" alt="Second Project" />
                             </div>
-                            <h2>Title of the 2nd project</h2>
+                            <h2>Page Replacement Algorithm Visualiser</h2>
                         </div>
                         <div className="project" ref={project3Ref}>
                             <div className="image-wrapper bg-[#ffe7eb]">
                                 <img src="/images/project3.png" alt="Third Project" />
                             </div>
-                            <h2>Title of the 3rd project</h2>
+                            <h2>Dhan Saathi - A Budget Planner</h2>
                         </div>
                     </div>
                 </div>
