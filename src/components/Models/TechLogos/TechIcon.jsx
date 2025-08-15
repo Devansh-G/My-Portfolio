@@ -1,10 +1,3 @@
-// Load a `.glb` model (GLTF format)
-// Add basic lighting
-// Apply environment reflections for realism
-// Wrap the model in a floating animation
-// Optionally tweak the material (like setting white color on a specific mesh)
-// Disable zoom using OrbitControls
-
 import {Environment, Float, OrbitControls, useGLTF} from "@react-three/drei";
 import {Canvas} from "@react-three/fiber";
 import {useEffect} from "react";

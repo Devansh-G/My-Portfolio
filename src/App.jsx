@@ -13,7 +13,7 @@ import UnderMaintenance from "./components/UnderMaintenance.jsx";
 
 const App = () => {
     // Set to true to show maintenance page, false to show the regular site
-    const [isUnderMaintenance] = useState(true);
+    const [isUnderMaintenance] = useState(false);
 
     if (isUnderMaintenance) {
         return <UnderMaintenance />;
